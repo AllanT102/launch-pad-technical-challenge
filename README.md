@@ -4,6 +4,9 @@ You and your friends are developing a new start-up called DRUBER, a drone-based 
 
 BEFORE:
 
+The problem with the implementation before, was that it was not responsive. Images and text would be squished if the window was resized, which is TERRIBLE. 
+
+<img src="./src/images/before1.png"/>
 
 
 
