@@ -1,0 +1,6 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #242B2E
+}
