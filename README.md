@@ -4,9 +4,14 @@ You and your friends are developing a new start-up called DRUBER, a drone-based 
 
 BEFORE:
 
+<img src="./src/images/before1.png"/>
+
+This looks fine doesn't it? Let's try resizing the page.
+
+<img src="./src/images/before2.png"/ style="width: 200px height: 200px;">
+<img src="./src/images/before3.png"/>
 The problem with the implementation before, was that it was not responsive. Images and text would be squished if the window was resized, which is TERRIBLE. 
 
-<img src="./src/images/before1.png"/>
 
 
 
