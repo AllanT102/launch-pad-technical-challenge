@@ -54,5 +54,7 @@ Another key feature that enhances mobile user experience is the fact that window
 
 2. Another solution that we could use to implement unique mobile responsive sites is that we could use CSS frameworks/libraries to style our webiste. MUI and TailwindCSS are some very popular resources that many developers use as their pre-built components that are also customizable make styling way easier. I personally like MUI better! :)
 
+3. Another solution would be to purely use responsive layouts like flexbox and grid to create a responsive display. Sometimes this works as flexing the containers and grids and making certain things grow/shrink more than others can ultimately allow the display to still look clean. You can utilize properties like `flex-wrap` to have containers/divs to wrap onto the next line, or the fr unit to control how big grid boxes are depending on the screen size. 
+
 Notes: To summarize, this whole ordeal could have been sorted out earlier on if developers focussed on a mobile first approach. It is way easier to scale up rather than scale down as there is more real estate to utilize when you are increasing the screen width and height. 
 
