@@ -32,22 +32,22 @@ Solutions:
 - Flexbox ensures a very responsive feel to each component of the website. For example, if you resize the window, some elements may grow or shrink at different speeds. This is what flexbox is used for; it's purpose is to map out where components go within your webpage and make them all fit into one container flexibly. 
 
 <div style="display: flex">
-   <img src="./src/images/code1.png style="height: 400px; width: auto;"">
-   <img src="./src/images/after1.png style="height: 400px; width: auto;"">
+   <img src="./src/images/code1.png" style="height: 400px; width: auto;">
+   <img src="./src/images/after1.png" style="height: 400px; width: auto;">
 </div>
 
 As you can see here, `@media only screen and (max-width: 750px)` specifies that these stylings only apply when the screen is less than 750px wide. Otherwise, your previously defined classes would be the ones applying the styling.
 
 <div style="display: flex">
-   <img src="./src/images/code2.png style="height: 400px; width: auto;"">
-   <img src="./src/images/after2.png style="height: 400px; width: auto;"">
+   <img src="./src/images/code2.png" style="height: 400px; width: auto;">
+   <img src="./src/images/after2.png" style="height: 400px; width: auto;">
 </div>
 
 This is an example of flexbox. The navigation bar container is a prime example of where flex box can be used. Normally, the divs containing each of the texts are block level, which means they would be stacked on top of each other. However, we applied flex to it so that now they are able to occupy the same block, and by specifying `justify-content: space-between`, there is a nice gap between our title and our links. 
 
 <div style="display: flex">
-   <img src="./src/images/code3.png style="height: 400px; width: auto;"">
-   <img src="./src/images/after1.png style="height: 400px; width: auto;"">
+   <img src="./src/images/code3.png" style="height: 400px; width: auto;">
+   <img src="./src/images/after1.png" style="height: 400px; width: auto;">
 </div>
 
 Another key feature that enhances mobile user experience is the fact that window space is used effectively. On a bigger screen size, normally you would see all the links in the navigation bar, but since we're on a phone, we need to optimize our space by hiding all our links in the dropdown called "menu." To do this, we used React's very own conditional rendering. We utilized the useState and useEffect hook to handle our screen width, and depending on the screen width, we're able to render out different components. 
