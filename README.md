@@ -9,7 +9,7 @@ You and your friends are developing a new start-up called DRUBER, a drone-based 
 
 This looks fine doesn't it? Let's try resizing the page.
 
-<img src="./src/images/before3.png" style="transform: scale(0.5, 0.5);"/>
+<img src="./src/images/before3.png" style="transform: scale(0.1, 0.1);"/>
 <img src="./src/images/before4.png" style="transform: scale(0.5, 0.5);"/>
 <img src="./src/images/before5.png" style="transform: scale(0.5, 0.5);"/>
 <img src="./src/images/before6.png" style="transform: scale(0.5, 0.5);"/>
