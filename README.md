@@ -19,7 +19,7 @@ This looks fine doesn't it? Let's try resizing the page.
     <img src="./src/images/before7.png" style="height: 400px; width: auto;"/>
   </div>
 
-The problem with the implementation before, was that it was not responsive. Images and text would be squished if the window was resized and text wouldn't even show up on the screen because it is off the screen... this is TERRIBLE. If you take a look at the last picture, this is what it would look like on an iPhone 8. You can't even make sense of what's on the screen. DRUBER is clearly doomed... 
+The problem with the implementation before, was that it was not responsive. Images and text would be squished if the window was resized and text wouldn't even show up on the screen because it is off the screen... this is TERRIBLE. If you take a look at the last picture, this is what it would look like on an iPhone 8. You can't even make sense of what's on the screen; the image is floating out of its container. DRUBER is clearly doomed... 
 
 Clearly, DRUBER has some really incompetent developers. Mobile users make up over 50% of internet traffic, thus, the mobile experience is crucial to a company's success. Let's take a look at how I would approach this problem.
 
