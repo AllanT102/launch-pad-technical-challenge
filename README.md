@@ -9,11 +9,11 @@ You and your friends are developing a new start-up called DRUBER, a drone-based 
 
 This looks fine doesn't it? Let's try resizing the page.
 
-<img src="./src/images/before3.png" style="width: 400px; height: 400px;"/>
-<img src="./src/images/before4.png" style="width: 400px; height: 400px;"/>
-<img src="./src/images/before5.png" style="width: 400px; height: 400px;"/>
-<img src="./src/images/before6.png" style="width: 400px; height: 400px;"/>
-<img src="./src/images/before7.png" style="width: 400px; height: 400px;"/>
+<img src="./src/images/before3.png"/>
+<img src="./src/images/before4.png"/>
+<img src="./src/images/before5.png"/>
+<img src="./src/images/before6.png"/>
+<img src="./src/images/before7.png"/>
 
 The problem with the implementation before, was that it was not responsive. Images and text would be squished if the window was resized and text wouldn't even show up on the screen because it is off the screen... this is TERRIBLE. If you take a look at the last picture, this is what it would look like on an iPhone 8. You can't even make sense of what's on the screen. DRUBER is clearly doomed... 
 
